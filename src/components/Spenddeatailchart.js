@@ -1,6 +1,5 @@
 import React from "react";
 import Chart from "react-apexcharts";
-import { HiOutlineCalendar } from "react-icons/hi";
 import Downloadicon from "../assets/icons/Downloadicon";
 
 const DonutChart = () => {

@@ -1,7 +1,6 @@
 import React from "react";
 import { HiArrowUp, HiArrowDown } from "react-icons/hi2";
 import { HiPlus, HiDownload } from "react-icons/hi";
-import Transfericon from "../assets/icons/Transfer";
 import Buttonbox from "./Buttonbox";
 
 

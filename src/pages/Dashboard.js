@@ -6,7 +6,6 @@ import DashboardContent from "../components/DashboardContent";
 
 
 const Dashboard = () => {
-  const [isOpen, setIsOpen] = useState(true);
   return (
     
     <div className="flex">
