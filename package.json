@@ -2,7 +2,7 @@
   "name": "dashoard",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://nehabhakta.github.io/react-dashboard",
+  "homepage": "https://NehaBhakta.github.io/React-Dashboard",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
