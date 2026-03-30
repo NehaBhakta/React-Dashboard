@@ -1,28 +1,37 @@
-name: Deploy React App to GitHub Pages
+name: Deploy CRA to GitHub Pages
 
 on:
   push:
     branches:
-      - main  # ya jo branch tum use karte ho
+      - main  # Change if your default branch is different
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true  # Fix Node.js 20 warning
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+
     steps:
+      # Step 1: Checkout code
       - uses: actions/checkout@v3
 
+      # Step 2: Setup Node.js 24
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18'
+          node-version: '24'
 
+      # Step 3: Install dependencies
       - name: Install dependencies
         run: npm install
 
+      # Step 4: Build CRA project
       - name: Build
         run: npm run build
 
-      - name: Deploy to GitHub Pages
+      # Step 5: Deploy to GitHub Pages
+      - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
