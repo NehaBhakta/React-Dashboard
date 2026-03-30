@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/React-Dashboard/static/css/main.a1b8dc5b.css",
+    "main.js": "/React-Dashboard/static/js/main.2305e0d4.js",
+    "static/media/logo-full.svg": "/React-Dashboard/static/media/logo-full.d43a8d487d34e78a1ff2d9665170fb16.svg",
+    "static/media/logo-small.svg": "/React-Dashboard/static/media/logo-small.810f694783289c572e21cddcbc6feac6.svg",
+    "static/media/profile.png": "/React-Dashboard/static/media/profile.b30578255b3d5fa757fb.png",
+    "index.html": "/React-Dashboard/index.html",
+    "main.a1b8dc5b.css.map": "/React-Dashboard/static/css/main.a1b8dc5b.css.map",
+    "main.2305e0d4.js.map": "/React-Dashboard/static/js/main.2305e0d4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a1b8dc5b.css",
+    "static/js/main.2305e0d4.js"
+  ]
+}
