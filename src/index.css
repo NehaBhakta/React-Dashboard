@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-jakarta;
+  background: #e5e7eb;
+}
+/* Custom thin scrollbar */
+.scrollbar::-webkit-scrollbar {
+  width: 4px;         
+}
+
+.scrollbar::-webkit-scrollbar-track {
+  background: transparent; 
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background-color: #F3F5F7; 
+  border-radius: 9999px;    
+}
+
+/* table */
+.sc-lgpSej {
+  display: none !important;
+}
+.tb-box{
+   align-items: center;
+}
+
+body{
+  overflow: hidden;
+}
