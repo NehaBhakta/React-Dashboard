@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Dashboard from "./pages/Dashboard";
 import Profile from "./pages/Profile";
 import Settings from "./pages/Settings";
@@ -10,15 +10,15 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Dashboard />} />
-        <Route path="/Insight" element={<Profile />} />
-        <Route path="/Invoices" element={<Profile />} />
-        <Route path="/Products" element={<Profile />} />
-        <Route path="/Reimburse" element={<Profile />} />
-        <Route path="/Inbox" element={<Profile />} />
-        <Route path="/People & Teams" element={<Profile />} />
+        <Route path="/insight" element={<Profile />} />
+        <Route path="/invoices" element={<Profile />} />
+        <Route path="/products" element={<Profile />} />
+        <Route path="/reimburse" element={<Profile />} />
+        <Route path="/inbox" element={<Profile />} />
+        <Route path="/people-teams" element={<Profile />} />
         <Route path="/settings" element={<Settings />} />
-        <Route path="/Help & Center" element={<Settings />} />
-        <Route path="/Dark Mode" element={<Briefcaseicon />} />
+        <Route path="/help-center" element={<Settings />} />
+        <Route path="/dark-mode" element={<Briefcaseicon />} />
       </Routes>
     </Router>
   );
